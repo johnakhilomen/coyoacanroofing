@@ -30,3 +30,102 @@ body {
   padding-left: 48px;
   padding-right: 48px;
 }
+
+/* ── Responsive grid helpers ── */
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ── Nav ── */
+.nav-menu { display: flex; align-items: center; gap: 32px; }
+.nav-cta  { display: block; }
+
+@media (max-width: 768px) {
+  .nav-menu { display: none; }
+}
+
+/* ── Hero ── */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 48px;
+  align-items: center;
+}
+.hero-image { position: relative; border-radius: 24px; overflow: hidden; height: 460px; }
+.hero-h1    { font-size: 48px; line-height: 1.08; }
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-image {
+    height: 320px;
+  }
+  .hero-h1 {
+    font-size: 34px;
+  }
+}
+
+/* ── Trust strip ── */
+.trust-grid {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 20px;
+}
+@media (max-width: 900px) {
+  .trust-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Proof section ── */
+.proof-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 48px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .proof-grid { grid-template-columns: 1fr; }
+}
+
+/* ── CTA bottom ── */
+.cta-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+@media (max-width: 768px) {
+  .cta-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cta-bottom-right {
+    align-items: flex-start !important;
+  }
+}
+
+/* ── Section headings scale ── */
+@media (max-width: 900px) {
+  .section-h2-lg { font-size: 28px !important; }
+  .section-h2-md { font-size: 26px !important; }
+  .section-p     { font-size: 15px !important; }
+}
