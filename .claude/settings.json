@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest --template react-ts .)",
+      "Bash(npx create-vite@latest coyoacanroofing --template react-ts)",
+      "Bash(npx create-vite@latest coyoacan --template react-ts)",
+      "Bash(npm run *)",
+      "Bash(gh auth *)",
+      "Bash(git add *)"
+    ]
+  }
+}
