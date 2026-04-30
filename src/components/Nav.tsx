@@ -1,6 +1,5 @@
-import { FaHouseMedicalCircleExclamation } from 'react-icons/fa6';
-import Container from './Container';
 import { BsHouseAdd } from 'react-icons/bs';
+import Container from './Container';
 
 export default function Nav() {
 	return (
@@ -113,7 +112,7 @@ export default function Nav() {
 						whiteSpace: 'nowrap',
 					}}
 				>
-					Call 763-555-0198
+					Call (612) 715-8139
 				</a>
 			</Container>
 		</nav>

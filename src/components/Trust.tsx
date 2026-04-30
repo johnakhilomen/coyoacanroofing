@@ -50,7 +50,7 @@ export default function Trust() {
 								margin: 0,
 							}}
 						>
-							• Local crews serving Brooklyn Park and nearby cities
+							• Local crews serving Minnesota and nearby cities
 							<br />
 							• Transparent estimates and daily project updates
 							<br />• 10-year workmanship warranty

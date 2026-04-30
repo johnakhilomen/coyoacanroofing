@@ -41,7 +41,7 @@ export default function ContactCTA() {
 							margin: 0,
 						}}
 					>
-						Call Coyocala Roofing at 763-555-0198 or request a free estimate
+						Call Coyocala Roofing at (612) 715-8139 or request a free estimate
 						online.
 					</p>
 					<a
@@ -135,10 +135,10 @@ export default function ContactCTA() {
 								margin: 0,
 							}}
 						>
-							Call us: 763-555-0198
+							Call us: (612) 715-8139
 						</p>
 						<p style={{ color: '#475569', fontSize: 15, margin: 0 }}>
-							Serving Brooklyn Park, MN
+							5817 73rd ave N #32 Brooklyn Park 55429
 						</p>
 					</div>
 				</Container>

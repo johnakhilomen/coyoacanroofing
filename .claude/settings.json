@@ -27,7 +27,8 @@
       "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"cat ~/public_html/../.bash_profile 2>/dev/null | head -5; ls ~/; grep -r 'ServerName\\\\|DocumentRoot' /etc/apache2 2>/dev/null | head -5; curl -s http://localhost 2>/dev/null | head -3\")",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://129.121.65.56/)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://coyocalaroofing.com/)",
-      "Bash(curl -sI https://coyocalaroofing.com/)"
+      "Bash(curl -sI https://coyocalaroofing.com/)",
+      "Bash(npm list *)"
     ]
   }
 }
