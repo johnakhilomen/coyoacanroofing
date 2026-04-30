@@ -1,4 +1,6 @@
+import { FaHouseMedicalCircleExclamation } from 'react-icons/fa6';
 import Container from './Container';
+import { BsHouseAdd } from 'react-icons/bs';
 
 export default function Nav() {
 	return (
@@ -45,11 +47,11 @@ export default function Nav() {
 							style={{
 								color: '#fff',
 								fontWeight: 700,
-								fontSize: 15,
+								fontSize: 24,
 								fontFamily: 'Montserrat, sans-serif',
 							}}
 						>
-							CR
+							<BsHouseAdd />
 						</span>
 					</div>
 					<div style={{ display: 'flex', flexDirection: 'column' }}>

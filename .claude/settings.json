@@ -7,7 +7,27 @@
       "Bash(npx create-vite@latest coyoacan --template react-ts)",
       "Bash(npm run *)",
       "Bash(gh auth *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(gh repo *)",
+      "Bash(ssh -o StrictHostKeyChecking=no jeailnmy@129.121.65.56 \"echo connected && uname -a && whoami\")",
+      "Bash(ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o PubkeyAuthentication=no jeailnmy@129.121.65.56 \"echo connected && uname -a && whoami\")",
+      "Bash(sshpass -p 'Roofing2026$' ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"echo connected && uname -a && whoami && ls /var/www 2>/dev/null || echo 'no /var/www' && ls /etc/nginx 2>/dev/null && nginx -v 2>&1 || apache2 -v 2>&1 || echo 'checking other servers'\")",
+      "Bash(ssh-add -D)",
+      "Bash(sshpass -p 'Roofing2026$' ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o PreferredAuthentications=password -o PubkeyAuthentication=no jeailnmy@129.121.65.56 \"echo connected && uname -a\")",
+      "Bash(sshpass -V)",
+      "Bash(sshpass -p 'Roofing2026$' ssh -v -o PreferredAuthentications=keyboard-interactive,password -o PubkeyAuthentication=no jeailnmy@129.121.65.56 \"echo ok\")",
+      "Bash(sshpass -p 'Roofing2026$' ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no jeailnmy@129.121.65.56 \"echo ok\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(ssh-keygen -t ed25519 -f ~/.ssh/coyocan_deploy -N \"\" -C \"coyocan-deploy\")",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o StrictHostKeyChecking=no -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"echo connected && pwd && ls public_html 2>/dev/null || ls ~/public_html 2>/dev/null && echo '---' && node -v 2>/dev/null || echo 'no node' && nginx -v 2>&1 || apache2 -v 2>&1\")",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"rm -rf ~/public_html/* ~/public_html/.[^.]* 2>/dev/null; echo cleared\")",
+      "Bash(rsync -avz -e \"ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes\" /Users/john/Desktop/coyoacanroofing/dist/ jeailnmy@129.121.65.56:~/public_html/)",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"ls -lh ~/public_html/ && cat ~/public_html/index.html | head -5\")",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"cat ~/public_html/../.bash_profile 2>/dev/null | head -5; ls ~/; grep -r 'ServerName\\\\|DocumentRoot' /etc/apache2 2>/dev/null | head -5; curl -s http://localhost 2>/dev/null | head -3\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://129.121.65.56/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://coyocalaroofing.com/)",
+      "Bash(curl -sI https://coyocalaroofing.com/)"
     ]
   }
 }
