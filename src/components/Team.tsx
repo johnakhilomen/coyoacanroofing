@@ -4,14 +4,14 @@ const members = [
 	{
 		name: 'Gabriela Almaguer',
 		role: 'Co-Founder & Lead Roofer',
-		bio: 'With 18 years of roofing experience across the Twin Cities, Carlos built Coyocala on a foundation of honest work and long-term relationships.',
+		bio: 'With 18 years of roofing experience across the Twin Cities, built Coyocala on a foundation of honest work and long-term relationships.',
 		initials: 'GA',
 		accent: '#1F3348',
 	},
 	{
 		name: 'Estela Lauriano',
 		role: 'Co-Founder & Lead Roofer',
-		bio: 'Diana guides homeowners through every step of the storm claim process, ensuring fast approvals and zero out-of-pocket surprises.',
+		bio: 'Guides homeowners through every step of the storm claim process, ensuring fast approvals and zero out-of-pocket surprises.',
 		initials: 'ER',
 		accent: '#D66A2E',
 	},

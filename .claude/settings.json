@@ -30,7 +30,14 @@
       "Bash(curl -sI https://coyocalaroofing.com/)",
       "Bash(npm list *)",
       "Bash(rsync -az -e \"ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes\" /Users/john/Desktop/coyoacanroofing/dist/ jeailnmy@129.121.65.56:~/public_html/)",
-      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"cat ~/public_html/.htaccess 2>/dev/null || echo 'no .htaccess'\")"
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"cat ~/public_html/.htaccess 2>/dev/null || echo 'no .htaccess'\")",
+      "Bash(curl -sH \"Cache-Control: no-cache\" https://coyocalaroofing.com/)",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"cat ~/public_html/index.html | grep 'index-'\")",
+      "Bash(ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes jeailnmy@129.121.65.56 \"ls ~/public_html/assets/\")",
+      "Bash(ssh -i '~/.ssh/coyocan_deploy' -o IdentitiesOnly=yes jeailnmy@129.121.65.56 'cd ~/public_html/assets && ls *.js && rm -f index-BE_6f5zD.js index-RPm3iEmZ.js && ls *.js')",
+      "Bash(rsync -avz --checksum -e 'ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes' /Users/john/Desktop/coyoacanroofing/dist/index.html 'jeailnmy@129.121.65.56:~/public_html/index.html')",
+      "Bash(ssh -i '~/.ssh/coyocan_deploy' -o IdentitiesOnly=yes jeailnmy@129.121.65.56 'rm -rf ~/public_html/* ~/public_html/.htaccess && ls ~/public_html/')",
+      "Bash(rsync -avz -e 'ssh -i ~/.ssh/coyocan_deploy -o IdentitiesOnly=yes' /Users/john/Desktop/coyoacanroofing/dist/ 'jeailnmy@129.121.65.56:~/public_html/')"
     ]
   }
 }
