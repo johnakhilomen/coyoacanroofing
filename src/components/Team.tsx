@@ -9,7 +9,7 @@ const members = [
 		accent: '#1F3348',
 	},
 	{
-		name: 'Estella Reyes',
+		name: 'Estela Lauriano',
 		role: 'Co-Founder & Lead Roofer',
 		bio: 'Diana guides homeowners through every step of the storm claim process, ensuring fast approvals and zero out-of-pocket surprises.',
 		initials: 'ER',
